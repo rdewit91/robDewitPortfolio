@@ -154,7 +154,7 @@
 } */
 
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -163,7 +163,7 @@
   .card:hover span {
     transform: translateX(4px);
   }
-}
+} */
 
 @media (prefers-reduced-motion) {
   .thirteen::before {
@@ -253,28 +253,28 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  /* .grid {
+/* @media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
     grid-template-columns: repeat(2, 50%);
-  } */
-}
+  }
+} */
 
-@media (prefers-color-scheme: dark) {
-  /* .vercelLogo {
+/* @media (prefers-color-scheme: dark) {
+  .vercelLogo {
     filter: invert(1);
   }
 
   .logo,
   .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  } */
-}
+  }
+} */
 
-@keyframes rotate {
+/* @keyframes rotate {
   from {
     transform: rotate(360deg);
   }
   to {
     transform: rotate(0deg);
   }
-}
+} */
