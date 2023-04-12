@@ -2,11 +2,11 @@ import React from 'react'
 // import styles from '@/styles/Home.module.css'
 import abtMeStyles from '@/styles/abtMe.module.css'
 import Image from 'next/image'
-import vet from '../styles/assets/salute.jpg'
-import fullStack from '../styles/assets/FullStack.jpeg'
-import grad from '../styles/assets/graduate.jpg'
-import learn from '../styles/assets/learning.jpg'
-import bjjKbx from '../styles/assets/martialArt.jpeg'
+import vet from '../styles/assets/abtMe/salute.jpg'
+import fullStack from '../styles/assets/abtMe/FullStack.jpeg'
+import grad from '../styles/assets/abtMe/graduate.jpg'
+import learn from '../styles/assets/abtMe/learning.jpg'
+import bjjKbx from '../styles/assets/abtMe/martialArt.jpeg'
 
 export default function abtMe() {
   return (
@@ -45,12 +45,12 @@ export default function abtMe() {
       </div>
     </div>
     
-    {/* <div class='light x4'></div>
+    <div class='light x4'></div>
     <div class='light x5'></div>
     <div class='light x6'></div>
     <div class='light x7'></div>
     <div class='light x8'></div>
-    <div class='light x9'></div> */}
+    <div class='light x9'></div>
     </>
     
   )

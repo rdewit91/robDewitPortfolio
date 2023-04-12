@@ -1,0 +1,32 @@
+.persProjBox {
+    margin: 5px;
+    padding: 5px;
+    color: #fffffc;
+    text-align: center;
+}
+
+.persProjHead {
+    margin: 5px;
+    padding: 5px;
+    border: solid black 5px;
+    background: #1F51FF; 
+    display: block;     
+    font-size: large;
+    text-align: center;
+}
+
+.persProjColm {
+    display: table;
+    justify-content: center;
+    align-items: center;
+}
+
+.persProjLink {
+    /* margin: 5px;
+    padding: 5px; */
+    border: solid black 5px;
+    width: 25%;
+    padding: 25px;
+    margin: 120px;
+    float: left;
+}

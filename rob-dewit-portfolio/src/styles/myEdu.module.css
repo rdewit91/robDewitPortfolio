@@ -1,0 +1,23 @@
+.myEduBox {
+    margin: 5px;
+    padding: 5px;
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    color: #fffffc;
+}
+
+.myEduHead {
+    margin: 5px;
+    padding: 5px;
+    border: solid black 5px;
+    text-align: center;
+    background: #1F51FF; 
+}
+
+.myEduData {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    border: solid black 5px;
+}
