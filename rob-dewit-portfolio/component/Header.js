@@ -6,7 +6,7 @@ import headStyles from '@/styles/header.module.css'
 export default function Header() {
   return (
     <>
-    <nav style={{ background: '#1F51FF' ,border: 'solid black 3px', display: 'flex', justifyContent: 'space-evenly' }}>
+    <nav style={{ top: '0%', position: 'sticky', width: '99%', background: '#1F51FF' ,border: 'solid black 3px', display: 'flex', justifyContent: 'space-evenly' }}>
         {/* <div>
             <RiBriefcase4Fill />
         </div> */}
@@ -32,7 +32,7 @@ export default function Header() {
         </div>
         <div style={{ border: 'solid black 3px', display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/myEdu' >
-                My EDUCATION
+                MY EDUCATION
             </Link>
         </div>
         <div style={{ border: 'solid black 3px', display: 'inline' }}>

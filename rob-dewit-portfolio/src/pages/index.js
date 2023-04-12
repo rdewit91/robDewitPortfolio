@@ -1,25 +1,29 @@
 // import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-    <div class='light x1'></div>
-    <div class='light x2'></div>
-    <div class='light x3'></div>
-    <div class='light x4'></div>
+    <div className={styles.homeBox}>
+      <div className={styles.homeText} >
+        <h1>WELCOME TO MY PORTFOLIO!!!</h1>
+        <p>This websites serves as an introduction to my coding skills, a more intractive form of  my resume and a nexus to my other personal projects</p>
+        <p>Feel free to browse my website with ease, as this is all possible using React.js and Next.js</p>
+      </div>
+      
+    </div>
+    
+    {/* <div class='light x1'></div> */}
+    {/* <div class='light x2'></div> */}
+    {/* <div class='light x3'></div> */}
+    {/* <div class='light x4'></div>
     <div class='light x5'></div>
     <div class='light x6'></div>
     <div class='light x7'></div>
     <div class='light x8'></div>
-    <div class='light x9'></div>
-
-
-    <h1>Hello World</h1>
+    <div class='light x9'></div> */}
 
   
     

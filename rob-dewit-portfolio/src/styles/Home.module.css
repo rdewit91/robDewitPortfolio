@@ -1,4 +1,28 @@
+.homeBox {
+  margin: 5px;
+  padding: 5px;
+  color: #fffffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  font-size: x-large;
+  text-align: center;
+   */
+}
 
+.homeText {
+  background: #1F51FF;
+  margin: 5px;
+  padding: 5px;
+  border: solid black 5px;
+  text-align: center;
+  font-size: xx-large;
+}
 
 /* .main {
   display: flex;
