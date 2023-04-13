@@ -24,14 +24,15 @@
         padding: 5px;
         border: solid black 5px;
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        /* background: #1F51FF;  */
 }
 
 .abtRightText {
         margin: 5px;
         padding: 100px;
-        border: solid black 5px;
-        /* background: #1F51FF; */
+        /* border: solid black 5px;
+        background: #1F51FF; */
         text-align: right;
         /* width: 500px; */
 }
@@ -39,8 +40,17 @@
 .abtLeftText {
         margin: 5px;
         padding: 100px;
-        border: solid black 5px;
-        /* background: #1F51FF; */
+        /* border: solid black 5px;
+        background: #1F51FF; */
         text-align: left;
         /* width: 500px; */
+}
+
+.abtText {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        border: solid black 5px;
+        background: #1F51FF;
+
 }

@@ -24,9 +24,18 @@
 .persProjLink {
     /* margin: 5px;
     padding: 5px; */
+    text-align: center;
     border: solid black 5px;
     width: 25%;
     padding: 25px;
     margin: 120px;
     float: left;
+}
+
+.persProjText {
+    margin: 2px;
+    padding: 2px;
+    border: solid black 2px;
+    background: #1F51FF;
+    display: inline-block;
 }
