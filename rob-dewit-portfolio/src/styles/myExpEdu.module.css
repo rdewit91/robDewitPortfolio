@@ -1,4 +1,4 @@
-.myExpBox {
+.myBox {
     margin: 5px;
     padding: 5px;
     /* display: flex; */
@@ -7,7 +7,7 @@
     color: #fffffc;
 }
 
-.myExpHead {
+.myHead {
     margin: 5px;
     padding: 5px;
     border: solid black 5px;
@@ -15,9 +15,20 @@
     background: #1F51FF; 
 }
 
-.myExpData {
+.myData {
     margin: 5px;
-    padding: 5px;
-    display: inline-block;
+    padding: 50px;
+    display: flex;
     border: solid black 5px;
+    width: 1200px;
+}
+
+.myText {
+    margin: 40px;
+    padding: 50px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: solid black 5px;
+    background: #1F51FF;
 }
