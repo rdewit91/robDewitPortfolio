@@ -22,7 +22,7 @@ export default function myEdu() {
           <p>Degree Earned Certificate of Completion</p>
           <p>Field of Study: JavaScript, HTML, CSS</p>
         </div>
-        <Image src={fullStack} height="400" width="800"/>
+        <Image src={fullStack} alt='fllStkImg' height="400" width="800"/>
       </div>
       <br></br>
       <br></br>
@@ -35,7 +35,7 @@ export default function myEdu() {
           <p>Degree Earned: Bachelors of Science</p>
           <p>Field of Study: Criminal Justice / Sociology</p>
         </div>
-        <Image src={brkPrt} height="400" width="800"/>
+        <Image src={brkPrt} alt='brkPrtImg' height="400" width="800"/>
         
       </div>
     </div>

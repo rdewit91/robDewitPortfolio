@@ -25,7 +25,7 @@ export default function myExp() {
           <p> -Trusted to operate an armored vehicle and firearm to transport large sums of currency from customer to a sorting center,</p>
           <p> -Maintained a 99% customers serviced and reduce the amount of currency loss</p>
         </div>
-        <Image src={grda}  height="400" width="400"/>
+        <Image src={grda} alt="grdaImg" height="400" width="400"/>
       </div>
       <br></br>
       <br></br>
@@ -39,7 +39,7 @@ export default function myExp() {
           <p> -Coordinated and Cooperated with others to make designed cuts, complete assembly orders and safely ship out roof trusses.</p>
           <p> -Increased production by 30% while maintaining a high standard of safety in a production environment</p>
         </div>
-        <Image src={nxtGen} height="400" width="400"/>
+        <Image src={nxtGen} alt="nxtGenImg" height="400" width="400"/>
       </div>
       <br></br>
       <br></br>
@@ -53,7 +53,7 @@ export default function myExp() {
           <p> -Patrolled and maintained a safe commuting environment in a highly populated area transit center</p>
           <p> -Vigilantly and proficiently reacted to medical emergencies and high risk situations</p>
         </div>
-        <Image src={g4s} height="400" width="400"/>
+        <Image src={g4s} alt="g4sImg" height="400" width="400"/>
       </div> 
     </div>
     <div class='light x1'></div>

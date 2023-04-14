@@ -17,8 +17,8 @@ export default function persProj() {
 
       <div className={styles.persProjColm} >
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROB'S ARCADE</h2>
-          <Image src={arcd} height="200" width="200" />
+          <h2 className={styles.persProjText} >ROBS ARCADE</h2>
+          <Image src={arcd} alt='arcdImg' height="200" width="200" />
           <p className={styles.persProjText} >This website demonstrates my proficiency with javascript through 3 fun games while using React and Next!</p>
           <button>
             <h4>Coming soon!</h4>
@@ -26,8 +26,8 @@ export default function persProj() {
         </div>
 
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROB'S STORE</h2>
-          <Image src={cart} height="200" width="200" />
+          <h2 className={styles.persProjText} >ROBS STORE</h2>
+          <Image src={cart} alt="cartImg" height="200" width="200" />
           <p className={styles.persProjText} > This website demonstrates my proficiency with backend skills through an ecommerce store while using supabase!</p>
           <button>
             <h4>Coming soon!</h4>
@@ -35,8 +35,8 @@ export default function persProj() {
         </div>
 
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROB'S EFFECTS</h2>
-          <Image src={efct} height="200" width="200" />
+          <h2 className={styles.persProjText} >ROBS EFFECTS</h2>
+          <Image src={efct} alt="efctImg" height="200" width="200" />
           <p className={styles.persProjText} >This website demonstrates my proficiency with css through a art show using CSS and Tailwind!!!</p>
           <button>
             <h4>Coming soon!</h4>
@@ -44,8 +44,8 @@ export default function persProj() {
         </div>
 
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROB'S FITTNESS APP</h2>
-          <Image src={fitApp} height="200" width="200" />
+          <h2 className={styles.persProjText} >ROBS FITTNESS APP</h2>
+          <Image src={fitApp} alt="fitAppImg" height="200" width="200" />
           <p className={styles.persProjText} >This website demonstrates my proficiency in all of the three previous projects all in one fitness app!!!</p>
           <button>
             <h4>Coming soon!</h4>
