@@ -9,8 +9,8 @@ export default function Home() {
     <div className={styles.homeBox}>
       <div className={styles.homeText} >
         <h1>WELCOME TO MY PORTFOLIO!!!</h1>
-        <p>This websites serves as an introduction to my coding skills, a more intractive form of  my resume and a nexus to my other personal projects</p>
-        <p>Feel free to browse my website with ease, as this is all possible using React.js and Next.js</p>
+        <p>This website serves as an introduction to my coding skills, an intractive form of my resume and a nexus to my other personal projects</p>
+        <p>Feel free to browse my website with ease, as this is all possible using React.js and Next.js!</p>
       </div>
       
     </div>

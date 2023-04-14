@@ -44,7 +44,7 @@ export default function persProj() {
         </div>
 
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROBS FITTNESS APP</h2>
+          <h2 className={styles.persProjText} >ROBS FITNESS APP</h2>
           <Image src={fitApp} alt="fitAppImg" height="200" width="200" />
           <p className={styles.persProjText} >This website demonstrates my proficiency in all of the three previous projects all in one fitness app!!!</p>
           <button>

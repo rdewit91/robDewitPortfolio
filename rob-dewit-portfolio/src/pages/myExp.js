@@ -10,7 +10,7 @@ export default function myExp() {
     <>
     <div className={styles.myBox} >
       <div className={styles.myHead} >
-        <h2>WELCOME TO MY EXPERIANCE 2AGE!!!</h2>
+        <h2>WELCOME TO MY EXPERIANCE PAGE!!!</h2>
         <p>Here are my most recent work experiances</p>
       </div>
       <br></br>
@@ -19,8 +19,8 @@ export default function myExp() {
         <div className={styles.myText} >
           <h2>Position: Armed Messenger / Driver</h2>
           <h3>Company: Gardaworld</h3>
-          <p>Date: Feb/2021 - Nov/2022</p>
           <p>Location: Rochester, NY</p>
+          <p>Date: Feb/2021 - Nov/2022</p>
           <p>Description:</p>
           <p> -Trusted to operate an armored vehicle and firearm to transport large sums of currency from customer to a sorting center,</p>
           <p> -Maintained a 99% customers serviced and reduce the amount of currency loss</p>
@@ -45,8 +45,8 @@ export default function myExp() {
       <br></br>
       <div className={styles.myData} >
         <div className={styles.myText} >
-          <h2>Position: Customs & Protections Off2cer</h2>
-          <h3>Company: G4S Secure S2lutions</h3>
+          <h2>Position: Customs & Protections Officer</h2>
+          <h3>Company: G4S Secure Solutions</h3>
           <p>Location: Rochester, NY</p>
           <p>Date: Oct/2018 - Sep/2020</p>
           <p>Description:</p>
