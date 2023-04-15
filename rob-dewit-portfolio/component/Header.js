@@ -27,7 +27,7 @@ export default function Header() {
         </div>
         <div style={{ border: 'solid black 3px', display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/myExp' >
-                MY EXPERIANCE
+                MY EXPERIENCE
             </Link>
         </div>
         <div style={{ border: 'solid black 3px', display: 'inline' }}>

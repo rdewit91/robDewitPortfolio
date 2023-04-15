@@ -10,8 +10,8 @@ export default function myExp() {
     <>
     <div className={styles.myBox} >
       <div className={styles.myHead} >
-        <h2>WELCOME TO MY EXPERIANCE PAGE!!!</h2>
-        <p>Here are my most recent work experiances</p>
+        <h2>WELCOME TO MY EXPERIENCE PAGE!!!</h2>
+        <p>Here are my most recent work experiences</p>
       </div>
       <br></br>
       <br></br>
