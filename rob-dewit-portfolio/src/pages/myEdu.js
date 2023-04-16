@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '@/styles/myExpEdu.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 import fullStack from '../styles/assets/myExpEdu/fullStack.jpg'
 import brkPrt from '../styles/assets/myExpEdu/brockport.png'
 
@@ -21,6 +22,9 @@ export default function myEdu() {
           <p>Date: Nov/2022 - Apr/2023</p>
           <p>Degree Earned Certificate of Completion</p>
           <p>Field of Study: JavaScript, HTML, CSS</p>
+          <Link href='https://www.fullstackacademy.com/'>
+            <button>View Thier Homepage Here!</button>
+          </Link>
         </div>
         <Image src={fullStack} alt='fllStkImg' height="400" width="800"/>
       </div>
@@ -34,6 +38,9 @@ export default function myEdu() {
           <p>Date: Aug/2014 - May/2018</p>
           <p>Degree Earned: Bachelors of Science</p>
           <p>Field of Study: Criminal Justice / Sociology</p>
+          <Link href='https://www2.brockport.edu/'>
+            <button>View Thier Homepage Here!</button>
+          </Link>
         </div>
         <Image src={brkPrt} alt='brkPrtImg' height="400" width="800"/>
         
