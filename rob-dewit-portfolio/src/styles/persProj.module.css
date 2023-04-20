@@ -39,3 +39,16 @@
     background: #1F51FF;
     display: inline-block;
 }
+
+.bttnStyle {
+    background-color: #1F51FF;
+    color: #fffffc;
+    transition-property:  color;
+    font-size: large
+}
+
+.bttnStyle:hover {
+    color: black;
+    background-color: #ffff00;
+    cursor: pointer;
+}

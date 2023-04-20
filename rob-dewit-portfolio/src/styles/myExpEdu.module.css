@@ -32,3 +32,19 @@
     border: solid black 5px;
     background: #1F51FF;
 }
+
+.bttnStyle {
+    margin: 2px;
+    padding: 2px;
+    border: solid black 2px;
+    background-color: #1F51FF;
+    color: #fffffc;
+    transition-property:  color;
+    font-size: large
+}
+
+.bttnStyle:hover {
+    color: black;
+    background-color: #ffff00;
+    cursor: pointer;
+}

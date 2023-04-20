@@ -1,43 +1,43 @@
 import React from 'react'
 import Link from 'next/link'
-import headStyles from '@/styles/header.module.css'
+import styles from './Header.module.css'
 // import RiBriefcase4Fill from 'react-icons/ri'
 
 export default function Header() {
   return (
     <>
-    <nav style={{ top: '0%', position: 'sticky', width: '99%', background: '#1F51FF' ,border: 'solid black 3px', display: 'flex', justifyContent: 'space-evenly' }}>
+    <nav className={styles.navBody} >
         {/* <div>
             <RiBriefcase4Fill />
         </div> */}
-        <div style={{ border: 'solid black 3px', display: 'inline' }}>
-            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/' >
-                HOME
+        <div  style={{ display: 'inline' }}>
+            <Link  style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/' >
+                <button className={styles.bttnStyle}  >HOME</button>
             </Link>
         </div>
-        <div style={{ border: 'solid black 3px', display: 'inline' }}>
+        <div style={{ display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/abtMe' >
-                ABOUT ME
+                <button className={styles.bttnStyle} >ABOUT ME</button>
             </Link>
         </div>
-        <div style={{ border: 'solid black 3px', display: 'inline' }}>
+        <div style={{ display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/persProj' >
-                PERSONAL PROJECTS
+                <button className={styles.bttnStyle} >PERSONAL PROJECTS</button>
             </Link>
         </div>
-        <div style={{ border: 'solid black 3px', display: 'inline' }}>
+        <div style={{ display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/myExp' >
-                MY EXPERIENCE
+                <button className={styles.bttnStyle} > MY EXPERIENCE</button>
             </Link>
         </div>
-        <div style={{ border: 'solid black 3px', display: 'inline' }}>
+        <div style={{ display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/myEdu' >
-                MY EDUCATION
+                <button className={styles.bttnStyle} >MY EDUCATION</button>
             </Link>
         </div>
-        <div style={{ border: 'solid black 3px', display: 'inline' }}>
+        <div style={{ display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/cntcMe' >
-                CONTACT ME
+                <button className={styles.bttnStyle}>CONTACT ME</button>    
             </Link>
         </div>
     </nav>

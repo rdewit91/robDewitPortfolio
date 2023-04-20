@@ -1,0 +1,23 @@
+.navBody {
+    bottom: 0%; 
+    position: fixed;
+    width: 99%;
+    background: #1F51FF;
+    border: solid black 3px;
+    display: flex;
+    justify-content: space-evenly
+
+}
+
+.bttnStyle {
+    border: solid black 3px;
+    background-color: #1F51FF;
+    color: #fffffc;
+    font-size: large;
+}
+
+.bttnStyle:hover {
+    color: black;
+    background-color: #ffff00;
+    cursor: pointer;
+}
