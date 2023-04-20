@@ -23,7 +23,7 @@ export default function myEdu() {
           <p>Degree Earned Certificate of Completion</p>
           <p>Field of Study: JavaScript, HTML, CSS</p>
           <Link href='https://www.fullstackacademy.com/'>
-            <button className={styles.bttnStyle} >View Thier Homepage Here!</button>
+            <button className={styles.bttnStyle} >View The Homepage Here!</button>
           </Link>
         </div>
         <Image src={fullStack} alt='fllStkImg' height="400" width="800"/>
@@ -39,7 +39,7 @@ export default function myEdu() {
           <p>Degree Earned: Bachelors of Science</p>
           <p>Field of Study: Criminal Justice / Sociology</p>
           <Link href='https://www2.brockport.edu/'>
-            <button className={styles.bttnStyle} >View Thier Homepage Here!</button>
+            <button className={styles.bttnStyle} >View The Homepage Here!</button>
           </Link>
         </div>
         <Image src={brkPrt} alt='brkPrtImg' height="400" width="800"/>
