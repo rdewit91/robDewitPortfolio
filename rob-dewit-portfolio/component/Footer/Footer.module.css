@@ -1,6 +1,6 @@
 .navBody {
-    bottom: 0%; 
-    position: fixed;
+    top: 0%; 
+    position: sticky;
     width: 99%;
     background: #1F51FF;
     border: solid black 3px;
