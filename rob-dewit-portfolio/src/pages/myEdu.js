@@ -11,7 +11,7 @@ export default function myEdu() {
     <div className={styles.myBox} >
       <div className={styles.myHead} >
         <h1>WELCOME TO MY EDUCATION PAGE!!</h1>
-        <p>Here are my most academic achievments</p>
+        <p>Here are my academic achievments</p>
       </div>
       <br></br>
       <br></br>
@@ -20,7 +20,7 @@ export default function myEdu() {
           <h1>FullStack Academy</h1>
           <p>Online Full Stack Web Development Immersive  Boot Camp</p>
           <p>Date: Nov/2022 - Apr/2023</p>
-          <p>Degree Earned Certificate of Completion</p>
+          <p>Degree Earned: Certificate of Completion</p>
           <p>Field of Study: JavaScript, HTML, CSS</p>
           <Link href='https://www.fullstackacademy.com/'>
             <button className={styles.bttnStyle} >View The Homepage Here!</button>

@@ -22,7 +22,7 @@ export default function Header() {
         </div>
         <div style={{ display: 'inline' }}>
             <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '5px', margin: '5px' }} href='/persProj' >
-                <button className={styles.bttnStyle} >PERSONAL PROJECTS</button>
+                <button className={styles.bttnStyle} >PERSONAL PROJECT&#39;S</button>
             </Link>
         </div>
         <div style={{ display: 'inline' }}>

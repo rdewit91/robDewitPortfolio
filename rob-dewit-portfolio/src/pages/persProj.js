@@ -12,13 +12,13 @@ export default function persProj() {
     <>
     <div className={styles.persProjBox} >
       <div className={styles.persProjHead} >
-        <h1>WELCOME TO MY PERSONAL PROJECTS!!!</h1>
+        <h1>WELCOME TO MY PERSONAL PROJECT&#39;S!!!</h1>
         <p>Here are my most recent coding projects to practice my skills and showcase my coding proficiency</p>
       </div>
 
       <div className={styles.persProjColm} >
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROBS ARCADE</h2>
+          <h2 className={styles.persProjText} >ROB&#39;S ARCADE</h2>
           <Image src={arcd} alt='arcdImg' height="200" width="200" />
           <p className={styles.persProjText} >This website demonstrates my proficiency with javascript through 3 fun games while using React and Next!</p>
           <Link  href='https://robs-arcade-zlnq.vercel.app/'>
@@ -28,7 +28,7 @@ export default function persProj() {
         </div>
 
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROBS STORE</h2>
+          <h2 className={styles.persProjText} >ROB&#39;S STORE</h2>
           <Image src={cart} alt="cartImg" height="200" width="200" />
           <p className={styles.persProjText} > This website demonstrates my proficiency with backend skills through an ecommerce store while using supabase!</p>
           <button className={styles.bttnStyle} >
@@ -37,7 +37,7 @@ export default function persProj() {
         </div>
 
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROBS EFFECTS</h2>
+          <h2 className={styles.persProjText} >ROB&#39;S EFFECTS</h2>
           <Image src={efct} alt="efctImg" height="200" width="200" />
           <p className={styles.persProjText} >This website demonstrates my proficiency with css through a art show using CSS and Tailwind!!!</p>
           <button className={styles.bttnStyle} >
@@ -46,7 +46,7 @@ export default function persProj() {
         </div>
 
         <div className={styles.persProjLink} >
-          <h2 className={styles.persProjText} >ROBS FITNESS APP</h2>
+          <h2 className={styles.persProjText} >ROB&#39;S FITNESS APP</h2>
           <Image src={fitApp} alt="fitAppImg" height="200" width="200" />
           <p className={styles.persProjText} >This website demonstrates my proficiency in all of the three previous projects all in one fitness app!!!</p>
           <button className={styles.bttnStyle} >

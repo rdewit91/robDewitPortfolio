@@ -24,7 +24,7 @@ export default function abtMe() {
       <br></br>
       <div className={abtMeStyles.abtCont}>
         <div className={abtMeStyles.abtLeftText} >
-          <p className={abtMeStyles.abtText} >Im a recent graduate of Full-Stack Academy, where I developed proficiency in various web development technologies such as JavaScript, HTML, and CSS, and gained familiarity with other frontend technologies such as React.js, Next.js, and Tailwind.</p>        
+          <p className={abtMeStyles.abtText} >I&#39;m a recent graduate of Full-Stack Academy, where I developed proficiency in various web development technologies such as JavaScript, HTML, and CSS, and gained familiarity with other frontend technologies such as React.js, Next.js, and Tailwind.</p>        
         </div>
         <Image src={fullStack} alt="fllStkImg" height="300" width="600"/>
       </div>
