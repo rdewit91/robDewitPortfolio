@@ -1,11 +1,11 @@
 .homeBox {
-  margin: 5px;
-  padding: 5px;
+  margin: 0.3125em;
+  padding: 0.3125em;
   color: #fffffc;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 34.375em;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -17,11 +17,18 @@
 
 .homeText {
   background: #1F51FF;
-  margin: 5px;
-  padding: 5px;
-  border: solid black 5px;
+  margin: 0.3125em;
+  padding: 0.3125em;
+  border: solid black 0.1875em;
   text-align: center;
-  font-size: xx-large;
+  font-size: 2.0em;
+}
+
+@media screen and (max-width: 375px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .homeBox {
+    height: 98em;
+  }
 }
 
 /* .main {
@@ -126,7 +133,7 @@
   content: '';
   left: 50%;
   position: absolute;
-  filter: blur(45px);
+  filter: blur(40.3125em);
   transform: translateZ(0);
 }
 
@@ -139,9 +146,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75px;
-  height: 75px;
-  padding: 25px 10px;
+  width: 70.3125em;
+  height: 70.3125em;
+  padding: 20.3125em 10px;
   margin-left: 16px;
   transform: translateZ(0);
   border-radius: var(--border-radius);
@@ -189,7 +196,7 @@
   }
 } */
 
-@media (prefers-reduced-motion) {
+/* @media (prefers-reduced-motion) {
   .thirteen::before {
     animation: none;
   }
@@ -197,13 +204,13 @@
   .card:hover span {
     transform: none;
   }
-}
+} */
 
 /* Mobile */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .content {
     padding: 4rem;
-  }
+  } */
 
   /* .grid {
     grid-template-columns: 1fr;
@@ -274,7 +281,7 @@
     );
     z-index: 1;
   } */
-}
+/* } */
 
 /* Tablet and Smaller Desktop */
 /* @media (min-width: 701px) and (max-width: 1120px) {

@@ -29,7 +29,7 @@ export default function myExp() {
             <button className={styles.bttnStyle} >View The Homepage Here!</button>
           </Link>
         </div>
-        <Image src={grda} alt="grdaImg" height="400" width="400"/>
+        <Image src={grda} alt="grdaImg" className={styles.myImg}/>
       </div>
       <br></br>
       <br></br>
@@ -46,7 +46,7 @@ export default function myExp() {
             <button className={styles.bttnStyle} >View The Homepage Here!</button>
           </Link>
         </div>
-        <Image src={nxtGen} alt="nxtGenImg" height="400" width="400"/>
+        <Image src={nxtGen} alt="nxtGenImg" className={styles.myImg}/>
       </div>
       <br></br>
       <br></br>

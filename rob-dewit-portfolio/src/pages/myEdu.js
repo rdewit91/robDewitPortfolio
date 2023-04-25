@@ -26,7 +26,7 @@ export default function myEdu() {
             <button className={styles.bttnStyle} >View The Homepage Here!</button>
           </Link>
         </div>
-        <Image src={fullStack} alt='fllStkImg' height="400" width="800"/>
+        <Image src={fullStack} alt='fllStkImg' className={styles.myImg} />
       </div>
       <br></br>
       <br></br>
@@ -42,7 +42,7 @@ export default function myEdu() {
             <button className={styles.bttnStyle} >View The Homepage Here!</button>
           </Link>
         </div>
-        <Image src={brkPrt} alt='brkPrtImg' height="400" width="800"/>
+        <Image src={brkPrt} alt='brkPrtImg' className={styles.myImg} />
         
       </div>
     </div>

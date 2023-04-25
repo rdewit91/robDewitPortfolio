@@ -1,7 +1,7 @@
 * {
   /* text-decoration: none; */
-  margin: 1px;
-  padding: 1px;
+  margin: 0.0625em;
+  padding: 0.0625em;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 }
 
@@ -25,7 +25,7 @@ body {
   background-color: #1F51FF;
   color: #fffffc;
   transition-property:  color;
-  font-size: large
+  font-size: 1.2em
 }
 
 .bttnStyle:hover {
@@ -40,7 +40,7 @@ body {
   width: 0px;
   opacity: .50;
   background-color: #ffff00;
-  box-shadow: #e9f1f1 0px 0px 20px 2px;
+  box-shadow: #e9f1f1 0px 0px 1.25em 0.125em;
   opacity: 0;
   top: 100vh;
   bottom: 0px;
@@ -271,24 +271,27 @@ to{opacity: 1;}
 }
 
 /* code that is here, until the first @media block, will apply to any screen size */
-#somethingorother {
+/* #somethingorother {
   width: 800px ;
-}
+} */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   /* comes into effect for screens less than or equal to 320 pixels */
-  #somethingorother {
-    width: 120px ;
+  body {
+    width: 59em ;
+    /* height: 100em; */
+    font-size: 1.5em;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 376px) and (max-width: 414px) {
   /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-  #somethingorother {
-    width: 320px ;
+  body {
+    width: 100em ;
+    font-size: 2em;
   }
 }
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
+@media screen and (min-width: 480.0625em) {
+  /* comes into effect for screens 1.2emr than or equal to 481 pixels */
   #somethingorother {
     width: 480px ;
   }

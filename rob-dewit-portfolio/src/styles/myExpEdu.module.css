@@ -1,6 +1,6 @@
 .myBox {
-    margin: 5px;
-    padding: 5px;
+    margin: 0.3125em;
+    padding: 0.3125em;
     /* display: flex; */
     justify-content: center;
     flex-direction: column;
@@ -8,43 +8,48 @@
 }
 
 .myHead {
-    margin: 5px;
-    padding: 5px;
-    border: solid black 5px;
+    margin: 0.3125em;
+    padding: 0.3125em;
+    border: solid black 0.3125em;
     text-align: center;
     background: #1F51FF; 
 }
 
 .myData {
-    margin: 5px;
-    padding: 50px;
+    margin: 0.3125em;
+    padding: 3.125em;
     display: flex;
-    border: solid black 5px;
+    border: solid black 0.3125em;
     width: 1200px;
 }
 
 .myText {
     margin: 40px;
-    padding: 50px;
+    padding: 3.125em;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    border: solid black 5px;
+    border: solid black 0.3125em;
     background: #1F51FF;
 }
 
 .bttnStyle {
-    margin: 2px;
-    padding: 2px;
-    border: solid black 2px;
+    margin: 0.125em;
+    padding: 0.125em;
+    border: solid black 0.125em;
     background-color: #1F51FF;
     color: #fffffc;
     transition-property:  color;
-    font-size: large
+    font-size: 1.2em
 }
 
 .bttnStyle:hover {
     color: black;
     background-color: #ffff00;
     cursor: pointer;
+}
+
+.myImg {
+    height: 25em;
+    width: 25em;
 }

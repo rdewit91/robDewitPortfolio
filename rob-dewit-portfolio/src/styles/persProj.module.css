@@ -1,17 +1,17 @@
 .persProjBox {
-    margin: 5px;
-    padding: 5px;
+    margin:  0.3125em;
+    padding:  0.3125em;
     color: #fffffc;
     text-align: center;
 }
 
 .persProjHead {
-    margin: 5px;
-    padding: 5px;
-    border: solid black 5px;
+    margin:  0.3125em;
+    padding:  0.3125em;
+    border: solid black  0.3125em;
     background: #1F51FF; 
     display: block;     
-    font-size: large;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -22,20 +22,20 @@
 }
 
 .persProjLink {
-    /* margin: 5px;
-    padding: 5px; */
+    /* margin:  0.3125em;
+    padding:  0.3125em; */
     text-align: center;
-    border: solid black 5px;
+    border: solid black  0.3125em;
     width: 25%;
-    padding: 25px;
-    margin: 120px;
+    padding: 1.5625em;
+    margin: 7.5em;
     float: left;
 }
 
 .persProjText {
-    margin: 2px;
-    padding: 2px;
-    border: solid black 2px;
+    margin: 0.125em;
+    padding: 0.125em;
+    border: solid black 0.125em;
     background: #1F51FF;
     display: inline-block;
 }
@@ -44,7 +44,7 @@
     background-color: #1F51FF;
     color: #fffffc;
     transition-property:  color;
-    font-size: large
+    font-size: 1.2em
 }
 
 .bttnStyle:hover {
@@ -52,3 +52,29 @@
     background-color: #ffff00;
     cursor: pointer;
 }
+
+.persProjImg {
+    height: 18em;
+    width: 18em;
+}
+
+@media screen and (max-width: 375px) {
+    .persProjLink {
+        width: 12%;
+        padding: .5em;
+        margin: 7.5em;
+    }
+    /* .persProjText {
+        margin: 2.5em;
+        padding: 2.5em;
+    
+    }
+    .persProjBox {
+        margin:  0.125em;
+        padding:  0.125em;
+        color: #fffffc;
+        text-align: center;
+    } */
+
+}
+

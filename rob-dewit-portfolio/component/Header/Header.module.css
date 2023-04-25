@@ -1,20 +1,19 @@
-.navBody {
-    bottom: 0%; 
-    position: sticky;
-    width: 99%;
+.navHeadBody {
+    top: 1em; 
+    position: relative;
+    width: 98%;
     background: #1F51FF;
-    border: solid black 3px;
+    border: solid black 0.1875em;
     display: flex;
     justify-content: space-evenly
-
 }
 
 .bttnStyle {
-    border: solid black 3px;
+    border: solid black 0.1875em;
     background-color: #1F51FF;
     color: #fffffc;
     /* transition-property:  color; */
-    font-size: large;
+    font-size: 1.2em;
 }
 
 .bttnStyle:hover {
@@ -22,3 +21,9 @@
     background-color: #ffff00;
     cursor: pointer;
 }
+
+@media screen and (max-width: 375px) {
+    .navHeadBody {
+      width:  58em;
+    }
+  }

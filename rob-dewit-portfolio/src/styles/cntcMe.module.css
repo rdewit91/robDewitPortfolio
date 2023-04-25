@@ -1,6 +1,6 @@
 .cntcMeBox {
-    margin: 5px;
-    padding: 5px;
+    margin: 0.3125em;
+    padding: 0.3125em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,24 +9,30 @@
 }
 
 .cntcMeHead {
-    margin: 5px;
-    padding: 5px;
-    border: solid black 5px;
+    margin: 0.3125em;
+    padding: 0.3125em;
+    border: solid black 0.3125em;
     text-align: center;
     background: #1F51FF; 
 }
 
 .cntcMeData {
-    margin: 25px;
-    padding: 25px;
-    border: solid black 5px;
+    margin: 1.5625em;
+    padding: 1.5625em;
+    border: solid black 0.3125em;
 }
 
 .cntcText {
-    margin: 5px;
-    padding: 5px;
+    margin: 0.3125em;
+    padding: 0.3125em;
     display: inline-block;
-    border: solid black 5px;
+    border: solid black 0.3125em;
     background: #1F51FF;
     text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+    .cntcMeBox {
+        height: 98em;
+    }
 }
