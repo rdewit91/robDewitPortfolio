@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   height: 34.375em;
+  flex-direction: column;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -27,9 +28,21 @@
 @media screen and (max-width: 375px) {
   /* comes into effect for screens less than or equal to 320 pixels */
   .homeBox {
+    height: 73em;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .homeBox {
     height: 98em;
   }
 }
+
+/* @media screen and (min-width: 820px) {
+  .homeBox {
+    height: 64em;
+  }
+} */
 
 /* .main {
   display: flex;

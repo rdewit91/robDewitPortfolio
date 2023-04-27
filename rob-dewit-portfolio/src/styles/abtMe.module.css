@@ -62,17 +62,40 @@
 
 @media screen and (max-width: 375px) {
         .abtBox {
-                margin: 0.1em;
-                padding: 0.1em;
+                margin: 0.05em;
+                padding: 0.05em;
         }
         .abtRightText {
                 margin: 0.3125em;
-                padding: 2.25em;
+                padding: 2em;
                 
         }
         .abtLeftText {
                 margin: 0.3125em;
-                padding: 2.25em;
-               
+                padding: 2em;  
+        }
+        .abtImg {
+                height: 13em;
+                width: 13em;
+        }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+        .abtBox {
+                margin: 0.05em;
+                padding: 0.05em;
+        }
+        .abtRightText {
+                margin: 0.3125em;
+                padding: 2em;
+                
+        }
+        .abtLeftText {
+                margin: 0.3125em;
+                padding: 2em;  
+        }
+        .abtImg {
+                height: 13em;
+                width: 13em;
         }
 }

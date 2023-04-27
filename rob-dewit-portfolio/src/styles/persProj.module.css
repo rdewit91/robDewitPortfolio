@@ -60,9 +60,16 @@
 
 @media screen and (max-width: 375px) {
     .persProjLink {
-        width: 12%;
-        padding: .5em;
-        margin: 7.5em;
+        width: 40%;
+        padding: .1em;
+        margin: 1.8em;
+    }
+    .persProjImg {
+        height: 12em;
+        width: 12em;
+    }
+    .persProjBox {
+        height: 93em;
     }
     /* .persProjText {
         margin: 2.5em;
@@ -78,3 +85,32 @@
 
 }
 
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .persProjLink {
+        width: 40%;
+        padding: .3em;
+        margin: 1.8em;
+    }
+    .persProjImg {
+        height: 12em;
+        width: 12em;
+    }
+    .persProjBox {
+        height: 99em;
+    }
+}
+
+/* @media screen and (max-width: 820px) {
+    .persProjLink {
+        width: 40%;
+        padding: .3em;
+        margin: 3.2em;
+    }
+    .persProjImg {
+        height: 22em;
+        width: 22em;
+    }
+    .persProjBox {
+        height: 110em;
+    }
+} */

@@ -13,7 +13,11 @@ export default function Home() {
         <p>This website serves as an introduction to my coding skills, an intractive form of my resume and a nexus to my other personal projects</p>
         <p>Feel free to browse my website with ease, as this is all possible using React.js and Next.js!</p>
       </div>
-      
+       
+      <div className={styles.homeText} >
+        <h1>ON THE GO? NO PROBLEM!</h1>
+        <p>View my portfolio on your phone!</p>
+      </div> 
     </div>
     
     <div class='light x1'></div>

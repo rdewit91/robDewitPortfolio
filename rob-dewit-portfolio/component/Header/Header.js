@@ -11,32 +11,32 @@ export default function Header() {
             <RiBriefcase4Fill />
         </div> */}
         <div  style={{ display: 'inline' }}>
-            <Link  style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='/' >
-                <button className={styles.bttnStyle}  >HOME</button>
+            <Link  style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='/' >
+                <button className={styles.bttnStyle}  >HOME PAGE</button>
             </Link>
         </div>
         <div style={{ display: 'inline' }}>
-            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='/abtMe' >
+            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='/abtMe' >
                 <button className={styles.bttnStyle} >ABOUT ME</button>
             </Link>
         </div>
         <div style={{ display: 'inline' }}>
-            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='/persProj' >
+            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='/persProj' >
                 <button className={styles.bttnStyle} >PERSONAL PROJECTS</button>
             </Link>
         </div>
         <div style={{ display: 'inline' }}>
-            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='/myExp' >
+            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='/myExp' >
                 <button className={styles.bttnStyle} > MY EXPERIENCE</button>
             </Link>
         </div>
         <div style={{ display: 'inline' }}>
-            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='/myEdu' >
+            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='/myEdu' >
                 <button className={styles.bttnStyle} >MY EDUCATION</button>
             </Link>
         </div>
         <div style={{ display: 'inline' }}>
-            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='/cntcMe' >
+            <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='/cntcMe' >
                 <button className={styles.bttnStyle}>CONTACT ME</button>    
             </Link>
         </div>

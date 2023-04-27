@@ -7,18 +7,18 @@ export default function Footer() {
     <>
     <nav className={styles.navFootBody} >
       <div  style={{ display: 'inline' }}>
-        <Link  style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='/' >
-            <button className={styles.bttnStyle}  >HOME</button>
+        <Link  style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='/' >
+            <button className={styles.bttnStyle}  >HOME PAGE</button>
         </Link>
       </div>
       <div style={{ display: 'inline' }} >    
-        <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='https://www.linkedin.com/in/rdewit91/' > 
-          <button className={styles.bttnStyle} > LINKEDIN</button>
+        <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='https://www.linkedin.com/in/rdewit91/' > 
+          <button className={styles.bttnStyle} >MY LINKEDIN</button>
         </Link>
       </div>
       <div style={{ display: 'inline' }} >
-        <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.3125em', margin: '0.3125em' }} href='https://github.com/rdewit91' >
-          <button className={styles.bttnStyle} >GITHUB</button>
+        <Link style={{ textDecoration: 'none', color: '#fffffc', padding: '0.1125em', margin: '0.1125em' }} href='https://github.com/rdewit91' >
+          <button className={styles.bttnStyle} >MY GITHUB</button>
         </Link>
       </div>
     </nav>
