@@ -21,9 +21,12 @@ export default function persProj() {
           <h2 className={styles.persProjText} >ROB&#39;S ARCADE</h2>
           <Image src={arcd} alt='arcdImg' className={styles.persProjImg} />
           <p className={styles.persProjText} >This website demonstrates my proficiency with javascript through 3 fun games while using React and Next!</p>
-          <Link  href='https://robs-arcade-zlnq.vercel.app/'>
+          {/* <Link  href='https://robs-arcade-zlnq.vercel.app/'>
             <button className={styles.bttnStyle} >CLICK HERE!</button>
-          </Link>
+          </Link> */}
+          <button className={styles.bttnStyle} >
+            <h4>Coming soon!</h4>
+          </button>
           
         </div>
 
