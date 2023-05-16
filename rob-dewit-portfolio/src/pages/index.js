@@ -1,6 +1,8 @@
 // import Head from 'next/head'
 // import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import Image from 'next/image'
+import profPic from '../styles/assets/profilePic.jpeg'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -13,7 +15,7 @@ export default function Home() {
         <p>This website serves as an introduction to my coding skills, an intractive form of my resume and a nexus to my other personal projects</p>
         <p>Feel free to browse my website with ease, as this is all possible using React.js and Next.js!</p>
       </div>
-       
+      <Image src={profPic} alt="profPicImg" className={styles.homeImg} />
       <div className={styles.homeText} >
         <h1>ON THE GO? NO PROBLEM!</h1>
         <p>View my portfolio on your phone!</p>

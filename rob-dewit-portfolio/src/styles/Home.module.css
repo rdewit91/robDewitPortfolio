@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 34.375em;
+  height: 72.375em;
   flex-direction: column;
   /* top: 50%;
   left: 50%;
@@ -25,10 +25,16 @@
   font-size: 2.0em;
 }
 
+.homeImg {
+  height: 30em;
+  width: 23em;
+  border: solid black 0.1875em;
+}
+
 @media screen and (max-width: 375px) {
   /* comes into effect for screens less than or equal to 320 pixels */
   .homeBox {
-    height: 73em;
+    height: 78em;
   }
 }
 
