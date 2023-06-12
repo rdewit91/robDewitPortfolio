@@ -3,7 +3,7 @@
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 import profPic from '../styles/assets/profilePic.jpeg'
-import { useMediaQuery } from 'react-responsive'
+// import { useMediaQuery } from 'react-responsive'
 
 
 export default function Home() {
