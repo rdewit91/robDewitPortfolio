@@ -5,6 +5,7 @@ import Image from 'next/image'
 import grda from '../styles/assets/myExpEdu/garda.jpg'
 import nxtGen from '../styles/assets/myExpEdu/nxtGen.jpg'
 import g4s from '../styles/assets/myExpEdu/g4s.png'
+import atm from '../styles/assets/myExpEdu/atmCnst.png'
 
 export default function myExp() {
   return (
@@ -18,10 +19,27 @@ export default function myExp() {
       <br></br>
       <div className={styles.myData} >
         <div className={styles.myText} >
+          <h2>Position: Armed ATM Technicion</h2>
+          <h3>Company: ATM Consultants</h3>
+          <p>Location: Rochester, NY</p>
+          <p>Date: Aug/2023 - Current</p>
+          <p>Description:</p>
+          <p> -Conducts onsite routine maintenance and troubleshooting on client ATMs while carrying a firearm</p>
+          <p> -Repairs hardware and software errors on ATMs on an On-call basis</p>
+          <Link href='https://www.atm-consult.com/'>
+            <button className={styles.bttnStyle} >View The Homepage Here!</button>
+          </Link>
+        </div>
+        <Image src={atm} alt="atmImg" className={styles.myImg} />
+      </div>
+      <br></br>
+      <br></br>
+      <div className={styles.myData} >
+        <div className={styles.myText} >
           <h2>Position: Armed Messenger / Driver</h2>
           <h3>Company: Gardaworld</h3>
           <p>Location: Rochester, NY</p>
-          <p>Date: Feb/2021 - Nov/2022</p>
+          <p>Date: Feb/2021 - Aug/2023</p>
           <p>Description:</p>
           <p> -Trusted to operate an armored vehicle and firearm to transport large sums of currency from customer to a sorting center,</p>
           <p> -Maintained a 99% customers serviced and reduce the amount of currency loss</p>
